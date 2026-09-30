@@ -1,0 +1,15 @@
+# Ignore local Terraform directories
+.terraform/
+*.ids
+*.manifest
+*.app
+
+# Ignore state files (contain secrets!)
+*.tfstate
+*.tfstate.backup
+
+# Ignore variables logs/files
+*.tfvars
+*.tfvars.json
+crash.log
+
